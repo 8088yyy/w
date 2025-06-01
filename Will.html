@@ -66,6 +66,10 @@ function initFailed(errorEvent) {
 document.addEventListener('shaka-ui-loaded', init);
 document.addEventListener('shaka-ui-load-failed', initFailed);
 
+var userConfirmed = confirm("Join For More Links!!");
+if (userConfirmed) {
+  window.location.href = "https://t.me/The8088y";
+}
 </script>
 
         <style>
@@ -84,6 +88,10 @@ document.addEventListener('shaka-ui-load-failed', initFailed);
         z-index: 1001;
     }
   </style>
+
+
+
+
   <script>
     // Prevent the page from being loaded inside an iframe
     if (window.top !== window.self) {
